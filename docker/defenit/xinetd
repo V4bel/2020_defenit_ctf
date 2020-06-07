@@ -1,0 +1,14 @@
+service visitor
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	port = 3333
+	protocol = tcp
+	wait = no
+	user = visitor
+	server = /bin/sh
+	server_args = -c cd${IFS}/chall;exec${IFS}./pow_check.py
+}
+
+

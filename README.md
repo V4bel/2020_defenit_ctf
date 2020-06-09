@@ -14,7 +14,7 @@ You can report the desired value to evdev without hardware-interrupt on the touc
 - `exploit/exp.c`     : 익스플로잇 코드
 
 # Write Up
-[My_blog](https://kimvabel.tistory.com/146)
+[My_blog](https://kimvabel.tistory.com/147)
 
 # Flag
 - `Defenit{pl2_DM_m3_hOw_th3_prOb_w4s}`
